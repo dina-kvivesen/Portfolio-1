@@ -6,6 +6,11 @@ h1,
 h2 {
   text-align: center;
 }
+#indexh1 {
+  margin: 8%;
+  font-weight: 100;
+  font-size: 4em;
+}
 .wrapper {
   display: flex;
   flex-flow: row wrap;
@@ -18,7 +23,6 @@ h2 {
   margin: 1rem;
   padding: 1rem;
   max-width: 300px;
-  border: 2px solid black;
   color: black;
   box-shadow: 3px 8px 15px #d8d8d8;
 }
