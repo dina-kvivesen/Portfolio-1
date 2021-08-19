@@ -5,42 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio 1 - projects from the first year of studying Front-end development"/>
-    <title>Portfolio 1</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dic5qla.css">
     <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css">
-    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/index.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5ecac85c66.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<main>
-    <h1 id="indexh1">Portfolio 1 - Dina Kvivesen</h1>
-    <div class="wrapper">
-        <div class="card" id="rainycard">
-            <a href="crosscourse.html">
-            <div class="logo-wrap">
-            <img src="images/RainyDays_Logo-kopi.png" id="rainylogo">
+    
+    <main class="index-main">
+        <nav>
+            <p><a href="index.html" id="logo"> DINA KVIVESEN</a></p>
+            <div id="toggleIcon">
+                <i class="fas fa-ellipsis-v"></i>
             </div>
-            <h2> CROSS-COURSE PROJECT</h2>
-            </a>
-        </div>
-  
-        <div class="card" id="sciencecard">
-            <a href="semesterproj.html">
-            <div class="logo-wrap">
-            <img src="images/logo1-kopi.png">
+            <div id="menu-overlay">
+                <ul>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-            <h2>SEMESTER PROJECT 1</h2>
-            </a>
-        </div>
-   
-          
-        <div class="card" id="sugarspicecard">
-            <a href="projexam.html">
-            <div class="logo-wrap">
-            <img src="images/logo-kopi.png">
+        </nav>
+    
+        <div class="content">
+            <div class="profile image">
+                <img src="images/profilepic1.jpg" id="profilepic">
             </div>
-            <h2>PROJECT EXAM 1</h2>
-            </a>
+            <h1 id="indexh1">Hi there, I'm Dina</h1>
+                <div class="text">
+                    <p>a front-end web developer<i class="fas fa-laptop-code"></i></p>
+                </div>
         </div>
-    </div>
-</main>
+    </main>
+<script src="js/script.js"></script>
 </body>
 </html>

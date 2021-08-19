@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page</title>
+    <link rel="stylesheet" href="https://use.typekit.net/dic5qla.css">
+    <link rel="stylesheet" href="https://use.typekit.net/fje3isb.css">
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/5ecac85c66.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <main>
+        <nav>
+            <p><a href="index.html" id="logo"> DINA KVIVESEN</a></p>
+            <div id="toggleIcon">
+                <i class="fas fa-ellipsis-v"></i>
+            </div>
+            <div id="menu-overlay">
+              <ul>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+        </nav>
+        <h2>let's connect</h2>
+        <div class="contact-container">
+            <div class="about-me-text">
+              <p>If you’re trying to reach me or wanna say 
+                hi, please email <span id="email-link">dina.kvivesen@hotmail.com</span>
+                or fill in the form below. I’d love to hear 
+                from you!
+                </p>
+            </div>
+            
+            <div class="contact-form">
+            <form>
+              <div id="message"></div>
+              <div>
+                <p>All fields are required!</p>
+                  <label>
+                      Name
+                      <input class="text-box" name="name" id="name" />
+                  </label>
+                  <div class="form-error" id="nameError">Please enter your name</div>
+              </div>
+    
+              <div>
+                  <label>
+                      Email
+                      <input class="text-box" name="email" id="email" />
+                  </label>
+                  <div class="form-error" id="emailError">Please enter a valid email address</div>
+              </div>
+    
+              <div>
+                <label>
+                    Subject
+                    <input class="text-box" name="subject" id="subject" />
+                </label>
+                <div class="form-error" id="subjectError">Subject must be minimum 3 characters</div>
+            </div>
+    
+              <div>
+                <label>
+                    Message
+                    <textarea
+                id="message-container"
+                name="message"
+              ></textarea>
+                </label>
+                <div class="form-error" id="messageError">Message must be minimum 10 characters</div>
+            </div>
+    
+              <button class="send-button">Submit</button>
+          </form>
+    
+          </div>
+    </main>
+<script src="js/script.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
