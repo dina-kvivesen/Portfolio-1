@@ -175,10 +175,10 @@ body {
     max-width: 700px;
     margin: auto;
   }
-  #contact-link {
+  #links {
     color: black;
   }
-  #contact-link:hover {
+  #links:hover {
     color: lightpink;
     transition: 0.3s;
   }
